@@ -19,6 +19,16 @@ This project employs Enterprise-grade ML to identify structural decay in digital
 
 ---
 
+## 📂 Repository Structure
+
+```text
+/ (Root)
+├── data/        # Subreddit CSVs & Processed datasets
+├── notebooks/   # Jupyter Notebooks (Visualizations & ML)
+├── src/         # Source code & automation scripts
+└── README.md    # Project Documentation
+```
+
 ## 🏗️ System Architecture
 
 The pipeline processes raw behavioral time-series and semantic discourse through a multi-stage AI framework:
@@ -96,10 +106,11 @@ pip install torch torch_geometric transformers sentence-transformers \
 
 Follow this sequence to execute the full end-to-end forecasting pipeline:
 
-1.  **Extract Semantics**: `python nlp_feature_extraction.py`
-2.  **Enrich Dataset**: `python preprocess_data_weekly_enriched.py`
-3.  **Train Topology**: `python gnn_dynamic_training.py`
-4.  **Forecast & Explain**: `python generate_notebook.py`
+1.  **Extract Semantics**: `python src/nlp_feature_extraction.py`
+2.  **Enrich Dataset**: `python src/preprocess_data_weekly_enriched.py`
+3.  **Train Topology**: `python src/gnn_dynamic_training.py`
+4.  **Forecast & Explain**: `python src/generate_notebook.py`
+5.  **View Results**: `jupyter notebook notebooks/Community_Collapse_Modeling.ipynb`
 
 ---
 

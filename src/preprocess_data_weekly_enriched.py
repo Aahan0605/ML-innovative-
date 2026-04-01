@@ -68,7 +68,7 @@ def preprocess_weekly_enriched(data_dir: str, output_file: str):
     final_df = final_df.sort_values(by=['subreddit', 'year_week']).reset_index(drop=True)
     
     # MERGE NLP FEATURES
-    nlp_path = 'nlp_weekly_features.csv'
+    nlp_path = 'data/nlp_weekly_features.csv'
     if os.path.exists(nlp_path):
         print("\nMerging newly extracted Advanced NLP features...")
         nlp_df = pd.read_csv(nlp_path)
@@ -88,5 +88,5 @@ def preprocess_weekly_enriched(data_dir: str, output_file: str):
 
 if __name__ == "__main__":
     DATA_DIRECTORY = 'data'
-    OUTPUT_FILE = 'processed_subreddit_weekly_enriched.csv'
+    OUTPUT_FILE = 'data/processed_subreddit_weekly_enriched.csv'
     preprocess_weekly_enriched(DATA_DIRECTORY, OUTPUT_FILE)

@@ -2,11 +2,15 @@
 venv/
 nlp_env/
 
-# Data Files (Skip raw and large processed matrices)
-data/
-*.csv
-
 # Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# System
+.DS_Store
+
+# Data Files
+# We track processed data and small CSVs in this repo.
+# Large raw data should be added specifically if needed.
+# data/ (Tracked by default now)

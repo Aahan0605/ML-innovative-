@@ -73,5 +73,5 @@ def preprocess_and_aggregate_data(data_dir: str, output_file: str):
 
 if __name__ == "__main__":
     DATA_DIRECTORY = 'data'
-    OUTPUT_FILE = 'processed_subreddit_time_series.csv'
+    OUTPUT_FILE = 'data/processed_subreddit_time_series.csv'
     preprocess_and_aggregate_data(DATA_DIRECTORY, OUTPUT_FILE)

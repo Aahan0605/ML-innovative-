@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 
 def dynamic_gnn_pipeline():
     print("Loading data...")
-    df = pd.read_csv('processed_subreddit_weekly_enriched.csv')
+    df = pd.read_csv('data/processed_subreddit_weekly_enriched.csv')
     df['year_week'] = pd.to_datetime(df['year_week'])
     df = df.sort_values(by=['subreddit', 'year_week']).reset_index(drop=True)
     

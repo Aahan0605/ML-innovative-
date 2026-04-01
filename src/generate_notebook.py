@@ -27,7 +27,7 @@ notebook_content = {
     "from sklearn.preprocessing import StandardScaler\n",
     "\n",
     "# Load Preprocessed Data\n",
-    "df = pd.read_csv('processed_subreddit_weekly_enriched.csv')\n",
+    "df = pd.read_csv('../data/processed_subreddit_weekly_enriched.csv')\n",
     "df['year_week'] = pd.to_datetime(df['year_week'])\n",
     "df = df.sort_values(by=['subreddit', 'year_week']).reset_index(drop=True)\n",
     "print(f\"Data Loaded: {df.shape[0]} rows, {df.shape[1]} columns.\")"
@@ -381,7 +381,7 @@ notebook_content = {
  "nbformat_minor": 4
 }
 
-with open("Community_Collapse_Modeling.ipynb", "w") as f:
+with open("notebooks/Community_Collapse_Modeling.ipynb", "w") as f:
     json.dump(notebook_content, f, indent=1)
 
 print("Jupyter Notebook generated successfully with new Enterprise Visualizations!")

@@ -126,7 +126,7 @@ def extract_nlp_features(data_dir: str, output_file: str, sample_size: int = 100
 
 if __name__ == "__main__":
     DATA_DIRECTORY = 'data'
-    OUTPUT_FILE = 'nlp_weekly_features.csv'
+    OUTPUT_FILE = 'data/nlp_weekly_features.csv'
     # For testing, we can limit to just a couple subreddits to see it work.
     # The script will process all if run entirely.
     extract_nlp_features(DATA_DIRECTORY, OUTPUT_FILE, sample_size=100)
