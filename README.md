@@ -53,30 +53,67 @@ class Aahan:
 **▸ Languages & Core**
 
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41&labelColor=0d1117)
+![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=00d4ff&labelColor=0d1117)
+![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff41&labelColor=0d1117)
+![R](https://img.shields.io/badge/R-0d1117?style=for-the-badge&logo=r&logoColor=00d4ff&labelColor=0d1117)
+![MATLAB](https://img.shields.io/badge/MATLAB-0d1117?style=for-the-badge&logo=mathworks&logoColor=00ff41&labelColor=0d1117)
 
-**▸ Machine Learning & Deep Learning**
+**▸ AI / ML & Deep Learning**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=for-the-badge&logo=tensorflow&logoColor=00ff41&labelColor=0d1117)
 ![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=00d4ff&labelColor=0d1117)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=00ff41&labelColor=0d1117)
 ![Keras](https://img.shields.io/badge/Keras-0d1117?style=for-the-badge&logo=keras&logoColor=00d4ff&labelColor=0d1117)
+![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=00ff41&labelColor=0d1117)
 
-**▸ Data Engineering**
+**▸ Data Science**
 
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00ff41&labelColor=0d1117)
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=00d4ff&labelColor=0d1117)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41&labelColor=0d1117)
+![Seaborn](https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python&logoColor=00d4ff&labelColor=0d1117)
+![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=00ff41&labelColor=0d1117)
 
-**▸ Quantitative Finance**
+**▸ Generative & Advanced AI**
+
+![GANs](https://img.shields.io/badge/GANs-0d1117?style=for-the-badge&logo=pytorch&logoColor=00ff41&labelColor=0d1117)
+![Transformers](https://img.shields.io/badge/Transformers-0d1117?style=for-the-badge&logo=huggingface&logoColor=00d4ff&labelColor=0d1117)
+![Diffusion Models](https://img.shields.io/badge/Diffusion%20Models-0d1117?style=for-the-badge&logo=tensorflow&logoColor=00ff41&labelColor=0d1117)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-0d1117?style=for-the-badge&logo=openai&logoColor=00d4ff&labelColor=0d1117)
+
+**▸ Quant & Finance Tools** `// exploring`
 
 ![QuantLib](https://img.shields.io/badge/QuantLib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41&labelColor=0d1117)
 ![Backtrader](https://img.shields.io/badge/Backtrader-0d1117?style=for-the-badge&logo=python&logoColor=00d4ff&labelColor=0d1117)
+![TA-Lib](https://img.shields.io/badge/TA--Lib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41&labelColor=0d1117)
+![Zipline](https://img.shields.io/badge/Zipline-0d1117?style=for-the-badge&logo=python&logoColor=00d4ff&labelColor=0d1117)
 
-**▸ Tools & Environment**
+**▸ Web Development**
+
+![HTML](https://img.shields.io/badge/HTML-0d1117?style=for-the-badge&logo=html5&logoColor=00ff41&labelColor=0d1117)
+![CSS](https://img.shields.io/badge/CSS-0d1117?style=for-the-badge&logo=css3&logoColor=00d4ff&labelColor=0d1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00ff41&labelColor=0d1117)
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=00d4ff&labelColor=0d1117)
+
+**▸ Databases**
+
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41&labelColor=0d1117)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=00d4ff&labelColor=0d1117)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff41&labelColor=0d1117)
+
+**▸ DevOps & Tools**
 
 ![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41&labelColor=0d1117)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117)
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=00ff41&labelColor=0d1117)
-![VS Code](https://img.shields.io/badge/VS%20Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=00d4ff&labelColor=0d1117)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41&labelColor=0d1117)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=00d4ff&labelColor=0d1117)
+![VS Code](https://img.shields.io/badge/VS%20Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=00ff41&labelColor=0d1117)
+
+**▸ Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff41&labelColor=0d1117)
+![GCP](https://img.shields.io/badge/GCP-0d1117?style=for-the-badge&logo=googlecloud&logoColor=00d4ff&labelColor=0d1117)
+![Azure](https://img.shields.io/badge/Azure-0d1117?style=for-the-badge&logo=microsoftazure&logoColor=00ff41&labelColor=0d1117)
 
 </div>
 
