@@ -124,16 +124,16 @@ collaboration:
 <div align="center">
 
 <!-- GitHub Stats Cards Row -->
-<img src="https://github-readme-stats.vercel.app/api?username=aahan0605&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&icon_color=00d4ff&text_color=c9d1d9&border_color=00ff4133&count_private=true&rank_icon=github" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Aahan0605&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&icon_color=00d4ff&text_color=c9d1d9&border_color=00ff41&count_private=true" height="170"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aahan0605&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff4133&langs_count=8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aahan0605&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&langs_count=8" height="170"/>
 
 </div>
 
 <div align="center">
 
 <!-- Streak Stats -->
-<img src="https://streak-stats.demolab.com?user=aahan0605&theme=dark&background=0D1117&ring=00FF41&fire=00D4FF&currStreakLabel=00FF41&sideLabels=00D4FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=666666&border=00FF4133&card_width=700" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=Aahan0605&theme=dark&background=0D1117&ring=00FF41&fire=00D4FF&currStreakLabel=00FF41&sideLabels=00D4FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=666666&border=00FF41&card_width=700" alt="GitHub Streak"/>
 
 </div>
 
