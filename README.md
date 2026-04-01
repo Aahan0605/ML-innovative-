@@ -1,173 +1,108 @@
 <div align="center">
 
-<!-- Animated Matrix-style header banner -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:001a00,100:00ff41&height=200&section=header&text=AAHAN.EXE&fontSize=70&fontColor=00ff41&animation=fadeIn&fontAlignY=55&desc=Artificial%20Intelligence%20%7C%20Quantitative%20Finance%20%7C%20FinTech&descAlignY=80&descColor=00d4ff&descSize=16" width="100%"/>
+# 🌌 Community Collapse Modeling
+### *Forecasting Digital Echo-Chamber Fragmentation with GNNs & NLP*
+
+[![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-HuggingFace-FFD21E?style=for-the-badge)](https://huggingface.co)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+---
+
+**Predicting the "death-spiral" of online communities before they happen.**  
+This project employs Enterprise-grade ML to identify structural decay in digital spaces using Temporal Graph Neural Networks and Deep NLP.
+
+[Explore Visualizations](#-visualizations) • [System Architecture](#-system-architecture) • [Getting Started](#-installation--setup)
 
 </div>
 
-<div align="center">
+---
 
-<!-- Typing SVG Effect -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%24+Initializing+Aahan.exe...;%24+Teaching+machines+to+think.+Teaching+markets+to+listen.;%24+SYSTEM+READY+%E2%96%A0)](https://git.io/typing-svg)
+## 🏗️ System Architecture
 
-</div>
+The pipeline processes raw behavioral time-series and semantic discourse through a multi-stage AI framework:
 
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  > SYSTEM BOOT SEQUENCE COMPLETE                                 ║
-║  > USER  :: Aahan Ajay Gajera        [B.Tech | AI & ML]         ║
-║  > ROLE  :: AI Engineer + Quant Finance Enthusiast               ║
-║  > STATUS:: Active | Building intelligent systems                ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## `$ ping ./connections`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aahan%20Gajera-0d1117?style=for-the-badge&logo=linkedin&logoColor=00d4ff&labelColor=0d1117)](https://www.linkedin.com/in/aahan-gajera-487709323/)
-[![Email](https://img.shields.io/badge/Email-aahan060505@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41&labelColor=0d1117)](mailto:aahan060505@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-aahan0605-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117)](https://github.com/aahan0605)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-0d1117?style=for-the-badge&logo=firefox&logoColor=555555&labelColor=0d1117)](#)
-
-</div>
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## `$ whoami`
-
-```python
-class Aahan:
-    def __init__(self):
-        self.name       = "Aahan Ajay Gajera"
-        self.role       = "B.Tech Student | AI & ML Specialization"
-        self.interests  = ["Deep Learning", "Reinforcement Learning",
-                           "Quantitative Finance", "Algorithmic Trading",
-                           "Generative AI", "FinTech Engineering"]
-        self.mission    = "Merging artificial intelligence with financial markets"
-        self.status     = "Open to internships & research collaborations"
-
-    def __repr__(self):
-        return f"AI Engineer × Quant in the making 🧠📈"
+```mermaid
+graph TD
+    A[Raw Subreddit Data] --> B{Pipeline Processor}
+    B --> C[NLP Enrichment]
+    B --> D[Temporal Graph Analysis]
+    
+    subgraph "Advanced NLP"
+    C --> C1[Toxicity Embeddings]
+    C --> C2[Topic Drift Detection]
+    end
+    
+    subgraph "Dynamic Modeling"
+    D --> D1[Dynamic GNN Training]
+    D1 --> D2[Echo-Chamber Mapping]
+    end
+    
+    C1 & C2 & D2 --> E[Enriched Time-Series]
+    E --> F[HistGradientBoosting Classifier]
+    F --> G[Collapse Prediction]
+    G --> H[SHAP Explainability Dashboard]
 ```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-## `$ ls -la ./tech-stack`
+## 🚀 Core Technological Pillars
 
-<div align="center">
+### 🧠 Dynamic Graph Neural Networks (GNNs)
+We don't just look at engagement; we look at **structure**. By mapping user-to-user interactions as a dynamic graph, the system identifies when a community's social fabric begins to fray—often weeks before engagement metrics reflect a collapse.
 
-<img src="galaxy.svg" width="100%" alt="Tech Stack Galaxy — Animated Solar System"/>
+### 🎭 Semantic NLP (Topic Drift & Toxicity)
+Using **Hugging Face Transformers**, we extract high-dimensional latent patterns in discourse:
+- **Toxicity Volatility**: Identifying the "tipping point" of hostile interactions.
+- **Topic Drift**: Quantifying the loss of community identity through semantic fragmentation.
 
-</div>
+### 🔍 Explainable AI (XAI) with SHAP
+Integrated **SHAP (SHapley Additive exPlanations)** to provide "Glass Box" transparency. Every prediction is backed by detailed feature-contribution analysis, showing exactly which behavioral proxies triggered the alarm.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-## `$ cat ./domains.log`
+## 📊 Visualizations
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  CORE DOMAINS                                               │
-│                                                             │
-│  [██████████] Reinforcement Learning          ACTIVE        │
-│  [██████████] Deep Learning & Neural Nets     ACTIVE        │
-│  [████████░░] Time-Series Forecasting         BUILDING      │
-│  [████████░░] Generative AI                   BUILDING      │
-│  [██████░░░░] Quantitative Finance            LEARNING      │
-│  [██████░░░░] Algorithmic Trading             LEARNING      │
-│  [████░░░░░░] Adaptive AI Systems             RESEARCHING   │
-│  [████░░░░░░] FinTech Engineering             EXPLORING     │
-└─────────────────────────────────────────────────────────────┘
-```
+The output dashboard provides high-fidelity insights into the community life-cycle:
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- **Anatomy of a Collapse**: A "Post-Mortem" view of engagement vs historical peaks.
+- **Early Warning Radar**: Predictive probability curves forecasting failure events.
+- **Behavioral Radar**: Comparative radar charts of Healthy vs. Decaying states.
 
-## `$ tail -f ./currently_learning.log`
+---
 
+## 🛠️ Installation & Setup
+
+> [!TIP]
+> This project utilizes a safe, isolated virtual environment (`nlp_env`) to manage complex ML dependencies like PyTorch and Transformers.
+
+### 1. Initialize Safe Environment
 ```bash
-$ python learn.py --module "Reinforcement Learning for Trading Strategies"
-  ▸ Q-Learning, PPO, Actor-Critic models for market environments
-  Output: [██████░░░░] 60% — in progress
-
-$ python learn.py --module "Financial Time-Series Modeling"
-  ▸ LSTM, Temporal Fusion Transformers, ARIMA-GARCH hybrids
-  Output: [████░░░░░░] 40% — in progress
-
-$ python learn.py --module "Generative AI Architectures"
-  ▸ GANs | Transformers | Diffusion Models | VAEs
-  Output: [████████░░] 80% — near completion
-
-$ python learn.py --module "Quant Finance Fundamentals"
-  ▸ Black-Scholes, Monte Carlo, Options Pricing, Portfolio Theory
-  Output: [███░░░░░░░] 30% — just started
+python3 -m venv nlp_env
+source nlp_env/bin/activate
 ```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## `$ cat ./objectives.cfg`
-
-```yaml
-career_target:
-  primary   : Quantitative Finance Engineer
-  secondary : AI/ML Research Scientist
-
-open_to:
-  - Internships in AI, ML, or FinTech
-  - Research collaborations (RL, GenAI, Time-Series)
-  - Open-source contributions
-  - Quant Finance projects
-
-collaboration:
-  - AI/ML pipelines with real-world applications
-  - Algorithmic trading systems
-  - Financial modeling & simulation
-  - Generative AI experiments
+### 2. Install Core Stack
+```bash
+pip install torch torch_geometric transformers sentence-transformers \
+            shap xgboost pandas numpy scikit-learn \
+            seaborn matplotlib networkx jupyter
 ```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-## `$ monitor --stats ./activity.log`
+## 🔄 Execution Workflow
+
+Follow this sequence to execute the full end-to-end forecasting pipeline:
+
+1.  **Extract Semantics**: `python nlp_feature_extraction.py`
+2.  **Enrich Dataset**: `python preprocess_data_weekly_enriched.py`
+3.  **Train Topology**: `python gnn_dynamic_training.py`
+4.  **Forecast & Explain**: `python generate_notebook.py`
+
+---
 
 <div align="center">
-
-<!-- Fix 1 — Wide Snake Animation -->
-<img src="https://raw.githubusercontent.com/Aahan0605/Aahan0605/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
-
-<!-- Streak stats card -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=Aahan0605&theme=matrix&hide_border=true&background=0D1117&ring=00FF41&fire=00D4FF&currStreakLabel=00FF41&sideLabels=00D4FF&dates=FFFFFF&currStreakNum=00FF41&sideNums=00D4FF)](https://git.io/streak-stats)
-
-</div>
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════╗
-║  "Markets are noisy. Intelligence cuts through it."   ║
-║   — Aahan Gajera, somewhere between epochs            ║
-╚═══════════════════════════════════════════════════════╝
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## `$ shutdown --graceful`
-
-<div align="center">
-
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  [SYSTEM] Session complete. All modules loaded.                      ║
-║  [LOG]    Visitor detected — identity confirmed.                   ║
-║  [STATUS] Aahan.exe running at full capacity.                        ║
-║  [EXIT]   Thanks for visiting — let's build something intelligent.   ║
-║  $ _                                                                 ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
+    <i>Developed for high-scale digital community analysis and predictive social modeling.</i>
 </div>
