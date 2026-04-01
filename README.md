@@ -123,9 +123,24 @@ collaboration:
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=aahan0605&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&icon_color=00d4ff&text_color=c9d1d9&border_color=00ff4133&hide_border=false&count_private=true&show=reviews,prs_merged_percentage"/>
+<!-- Row: Coding GIF + GitHub Stats side by side -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="48%" align="center" valign="top" style="padding-right:8px">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aahan0605&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff4133&hide_border=false&langs_count=8"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" style="border-radius:8px" alt="Hacker Coding Animation"/>
+
+</td>
+<td width="4%"></td>
+<td width="48%" align="center" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=aahan0605&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&icon_color=00d4ff&text_color=c9d1d9&border_color=00ff4133&hide_border=false&count_private=true" width="100%"/>
+<br/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aahan0605&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff4133&hide_border=false&langs_count=8" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -137,9 +152,20 @@ collaboration:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aahan0605&theme=react-dark&bg_color=0d1117&color=00ff41&line=00d4ff&point=00ff41&area=true&hide_border=false&custom_title=Contribution%20Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aahan0605&theme=react-dark&bg_color=0d1117&color=00ff41&line=00d4ff&point=00ff41&area=true&hide_border=false&custom_title=Contribution%20Graph" width="100%"/>
 
 </div>
+
+<div align="center">
+
+```
+// $ snake --eats --contributions --palette=github-dark
+```
+
+<img src="https://raw.githubusercontent.com/aahan0605/aahan0605/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
+
+</div>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
