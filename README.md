@@ -136,28 +136,21 @@ collaboration:
 
 <div align="center">
 
-<!-- Side-by-side Visuals: Neural Network + contribution snake -->
+<!-- Fix 1 — Wide Snake Animation -->
+<img src="https://raw.githubusercontent.com/Aahan0605/Aahan0605/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
+
 <table width="100%">
   <tr>
+    <!-- Fix 2 — Left Hacker GIF -->
     <td width="50%" align="center">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjP8M6E6Yj7l6/giphy.gif" width="100%" alt="Neural Network Visualization"/>
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="200px" style="border-radius:8px;"/>
     </td>
+    <!-- Fix 3 — Right GitHub Stats -->
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Aahan0605/Aahan0605/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Aahan0605&show_icons=true&theme=chartreuse-dark&bg_color=0D1117&hide_border=true&title_color=00FF41&icon_color=00D4FF&text_color=FFFFFF" width="100%"/>
     </td>
   </tr>
 </table>
-
-<br/>
-
-<!-- GitHub Stats Card + Most Used Languages -->
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aahan0605&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00D4FF&text_color=FFFFFF&ring_color=00FF41)](https://github.com/aahan0605)
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aahan0605&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=FFFFFF)](https://github.com/aahan0605)
-
-<br/>
-
-<!-- GitHub Streak Stats -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=aahan0605&theme=matrix&hide_border=true&background=0D1117&ring=00FF41&fire=00D4FF&currStreakLabel=00FF41&sideLabels=00D4FF&dates=FFFFFF&currStreakNum=00FF41&sideNums=00D4FF)](https://git.io/streak-stats)
 
 </div>
 
