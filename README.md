@@ -136,9 +136,17 @@ collaboration:
 
 <div align="center">
 
-<!-- Profile Views + Commits Badges -->
-![Profile Views](https://komarev.com/ghpvc/?username=aahan0605&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS)
-![Commits](https://img.shields.io/github/commit-activity/m/aahan0605/aahan0605?color=00D4FF&style=for-the-badge&label=COMMITS+THIS+MONTH)
+<!-- Side-by-side Visuals: Neural Network + contribution snake -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6NXJndXp6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjP8M6E6Yj7l6/giphy.gif" width="100%" alt="Neural Network Visualization"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/Aahan0605/Aahan0605/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -165,7 +173,7 @@ collaboration:
 ```
 
 <!-- Snake Contribution Animation -->
-![Snake animation](https://raw.githubusercontent.com/aahan0605/aahan0605/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Aahan0605/Aahan0605/output/github-contribution-grid-snake-dark.svg)
 
 <!-- Footer wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:001a00&height=100&section=footer&fontColor=00ff41"/>
