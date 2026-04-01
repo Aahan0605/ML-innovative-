@@ -31,7 +31,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aahan%20Gajera-0d1117?style=for-the-badge&logo=linkedin&logoColor=00d4ff&labelColor=0d1117)](https://linkedin.com/in/aahan-gajera)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aahan%20Gajera-0d1117?style=for-the-badge&logo=linkedin&logoColor=00d4ff&labelColor=0d1117)](https://www.linkedin.com/in/aahan-gajera-487709323/)
 [![Email](https://img.shields.io/badge/Email-aahan060505@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41&labelColor=0d1117)](mailto:aahan060505@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-aahan0605-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117)](https://github.com/aahan0605)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-0d1117?style=for-the-badge&logo=firefox&logoColor=555555&labelColor=0d1117)](#)
