@@ -1,0 +1,58 @@
+====================================================================
+      MODEL TRAINING AND ANALYSIS WORKFLOW - COLLAPSE PREDICTION
+====================================================================
+
+If your faculty asks: "Walk me through what your Jupyter Notebook is actually doing, and why you made these choices." — Read this.
+
+--------------------------------------------------------------------
+STEP 1: CREATING THE "COLLAPSE" TARGET VARIABLE (y)
+--------------------------------------------------------------------
+PROBLEM: Our dataset has numbers (comments, upvotes) but lacks a label saying "Collapsed = True".
+SOLUTION: We mathematically engineered the label. 
+* We calculate the "Historical Peak Engine" of each subreddit.
+* We calculate a "Rolling 4-Week Average" of engagement. 
+* If a community's 4-week engagement drops below 30% of its all-time peak, we label it as '1' (At-Risk/Collapsed). Otherwise, '0' (Healthy).
+WHY THIS MATTERS: This proves to your faculty that you didn't just "guess"; you used a strict quantitative threshold to define structural failure.
+
+--------------------------------------------------------------------
+STEP 2: FEATURE ENGINEERING (THE TIME LAGS - CRITICAL)
+--------------------------------------------------------------------
+PROBLEM: If we tell the model "The community has 0 comments today, are they collapsed today?", the model will say "Yes." That is obvious. It is not *predictive*. 
+SOLUTION: Time Windowing. We shifted the columns so that we use data from Week T-4, T-3, T-2, and T-1 to predict the state in Week T. 
+WHY THIS MATTERS: This is how we fulfill the project's promise: "Predicting community failure BEFORE it happens." The model learns the *trajectory* of decay that occurs a month *before* the community actually hits the collapse threshold.
+
+--------------------------------------------------------------------
+STEP 3: TRAIN/TEST SPLIT (CHRONOLOGICAL)
+--------------------------------------------------------------------
+PROBLEM: Common ML projects use `train_test_split(shuffle=True)`. If we do that, we leak "future" data into the "past", which ruins Time-Series models.
+SOLUTION: We sort the dataframe by time. We train the model on the oldest 80% of data and test it on the *most recent* 20% of data. 
+WHY THIS MATTERS: This proves the model can actually predict the future based on historical precedent.
+
+--------------------------------------------------------------------
+STEP 4: MODEL SELECTION & JUSTIFICATION
+--------------------------------------------------------------------
+We trained three models to compare baseline vs. advanced architectures:
+
+1. Logistic Regression (Baseline)
+- Why use it?: It tries to draw a straight line between "Healthy" and "Collapsed". 
+- Justification: We use it as a dummy baseline to prove the inadequacy of simple linear logic for behavioral human data.
+
+2. Random Forest Classifier
+- Why use it?: Decision trees handle "non-linear" thresholds beautifully (e.g., "If upvotes drop AND crossposts are zero, then collapsed"). 
+- Justification: It provides "Feature Importance" — we can literally extract *which* behavioral metrics cause a collapse.
+
+3. Gradient Boosting (SOTA / XGBoost-style)
+- Why use it?: Community collapse is a "Minority Class" (most weeks, a community is healthy). Gradient Boosting builds sequential trees that specifically focus on correcting the errors of the previous trees, making it phenomenal at detecting rare events (like a sudden collapse). 
+
+--------------------------------------------------------------------
+VIVA / FACULTY Q&A CHEAT SHEET
+--------------------------------------------------------------------
+
+Q: "Why didn't you use standard Accuracy as your main metric?"
+A: "Ma'am, most of the time a community is healthy. If the dataset is 90% healthy weeks, a model can just predict 'Healthy' every time and get 90% accuracy, but it would NEVER detect a collapse. That's why I am evaluating based on Precision, Recall, and F1-Score, focusing entirely on how well it detects the minority 'Collapse' class."
+
+Q: "How does your model actually predict failure *early*?"
+A: "By using Lagged Features. I constructed the dataset so the target variable in Week T is predicted strictly using feature values from Week T-1 down to T-4. The model isn't seeing the current collapse; it is recognizing the behavioral decay patterns a month *prior* to the collapse."
+
+Q: "Why did you choose Gradient Boosting alongside Random Forest?"
+A: "Gradient Boosting is state-of-the-art for imbalanced tabular data. While Random Forest gives me great feature importance, Gradient Boosting is typically better at penalizing misclassifications of rare events, making my 'Early Warning System' much more sensitive."

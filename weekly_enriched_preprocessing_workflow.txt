@@ -1,0 +1,45 @@
+====================================================================
+    WEEKLY ENRICHED DATA PREPROCESSING WORKFLOW
+====================================================================
+
+GOAL: Address the dimensionality reduction bottleneck by increasing dataset granularity from Monthly to Weekly, and enriching the dataset with proxy behaviors (awards, crossposts, subscriber counts) to empower deep learning models.
+
+--------------------------------------------------------------------
+THE PROBLEM WITH THE MONTHLY DATASET (Why we upgraded)
+--------------------------------------------------------------------
+When aggregating irregular post-level data into Time-Series data, we initially grouped by Month. 
+Math: 50 subreddits × ~8 years of active history × 12 months = ~4,500 rows.
+While 4,500 rows are mathematically dense, advanced Machine Learning models (like LSTMs or Neural Networks for sequence prediction) require higher volumes of sequential steps to learn complex patterns without overfitting. Furthermore, a community might collapse in mere weeks due to a toxic event—waiting for monthly data creates too much "lag" for an early-warning system.
+
+--------------------------------------------------------------------
+STEP-BY-STEP ENRICHED WORKFLOW & JUSTIFICATIONS
+--------------------------------------------------------------------
+
+1. WEEKLY TEMPORAL ABSTRACTION (Scaling Up Data Volume)
+=======================================================
+Procedure: Instead of flattening timestamps into `Year-Month`, we convert `created_utc` into `Year-Week`.
+Why we do this: This naturally multiplies the size of our time-series dataset. 
+Math: 50 subreddits × ~8 years × 52 weeks = ~20,000 potential rows (our actual dataset resulted in 15,064 rows of active weeks). 
+The model now has 4x the amount of sequential steps (historical data points) to study the "trend" of a community before it collapses.
+
+2. ADDING METADATA & BEHAVIORAL FEATURES
+=======================================================
+In the previous iteration, we only tracked upvotes, comments, and post count. In this enriched version, we tapped into deeper behavioral columns:
+
+* Feature: `total_awards`
+  - Justification: Awards cost real money or require significant effort on Reddit. A drop in awards is a massive "early warning" signal that community passion and appreciation are dying, even if people are still casually commenting.
+
+* Feature: `total_crossposts`
+  - Justification: Crossposting means a community's content is relevant and being shared across the broader internet/platform network. If crossposts drop to 0, the community is becoming isolated, which is a symptom of stagnation.
+
+* Feature: `avg_subscribers`
+  - Justification: This puts activity into perspective. If a community has 10,000,000 subscribers but only 500 total comments this week, it is a "zombie" subreddit. Tracking the ratio between subscriber size and active engagement is critical to defining a "collapsed" state quantitatively.
+
+3. CONCATENATION & EXPORT
+=======================================================
+We process all 50 files iteratively in memory and compile them into `processed_subreddit_weekly_enriched.csv`. This is our new, robust Master Dataset containing 15,064 rows and 12 highly tuned behavioral features.
+
+--------------------------------------------------------------------
+CONCLUSION FOR THE FACULTY
+--------------------------------------------------------------------
+By shifting from tabular post analytics to an **enriched weekly structural time-series**, we have perfectly positioned the data for predictive Temporal Machine Learning (like Recurrent Neural Networks or Windowed Random Forests). We are no longer looking at what the community is saying; we are comprehensively mapping the heartbeat, isolation level, and passion of the community on a week-by-week basis.

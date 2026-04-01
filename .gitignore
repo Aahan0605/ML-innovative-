@@ -1,0 +1,12 @@
+# Environments
+venv/
+nlp_env/
+
+# Data Files (Skip raw and large processed matrices)
+data/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
