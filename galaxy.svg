@@ -24,7 +24,7 @@
   </radialGradient>
 </defs>
 <style>
-  .lbl { font-family: 'Courier New', Courier, monospace; font-size: 9.5px; text-anchor: middle; dominant-baseline: central; }
+  .lbl { font-family: 'Courier New', Courier, monospace; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
   .lg { fill: #00ff41; }
   .lb { fill: #00d4ff; }
   .ring { fill: none; stroke-width: 0.6; }
@@ -136,22 +136,22 @@
 <circle id="sun-halo2" cx="430" cy="430" r="55" fill="#00ff41" opacity="0.1" filter="url(#glow-sun)"/>
 <circle id="sun-halo" cx="430" cy="430" r="40" fill="#00ff41" opacity="0.2" filter="url(#glow-sun)"/>
 <circle cx="430" cy="430" r="28" fill="url(#sun-grad)" filter="url(#glow-sun)"/>
-<text x="430" y="426" class="lbl" fill="#ffffff" font-size="11" font-weight="bold">AAHAN</text>
-<text x="430" y="439" class="lbl" fill="#00ff41" font-size="7.5">.EXE</text>
+<text x="430" y="426" class="lbl" fill="#ffffff" font-size="15" font-weight="bold">AAHAN</text>
+<text x="430" y="441" class="lbl" fill="#00ff41" font-size="10">.EXE</text>
 
 <!-- ═══ ORBIT 1 — Languages (r=75, 18s, green) ═══ -->
 <g id="o1">
   <g style="transform: translate(505px, 430px)">
-    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">Python</text></g>
+    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">Python</text></g>
   </g>
   <g style="transform: translate(430px, 505px)">
-    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">C++</text></g>
+    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">C++</text></g>
   </g>
   <g style="transform: translate(355px, 430px)">
-    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">R</text></g>
+    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">R</text></g>
   </g>
   <g style="transform: translate(430px, 355px)">
-    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">MATLAB</text></g>
+    <g class="c1"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">MATLAB</text></g>
   </g>
 </g>
 
@@ -159,38 +159,38 @@
 <!-- 5 items @ 72° spacing. cos/sin: 0°(1,0) 72°(.309,.951) 144°(-.809,.588) 216°(-.809,-.588) 288°(.309,-.951) -->
 <g id="o2">
   <g style="transform: translate(560px, 430px)">
-    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">TensorFlow</text></g>
+    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">TensorFlow</text></g>
   </g>
   <g style="transform: translate(470px, 554px)">
-    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">PyTorch</text></g>
+    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">PyTorch</text></g>
   </g>
   <g style="transform: translate(325px, 506px)">
-    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Sklearn</text></g>
+    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Sklearn</text></g>
   </g>
   <g style="transform: translate(325px, 354px)">
-    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Keras</text></g>
+    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Keras</text></g>
   </g>
   <g style="transform: translate(470px, 306px)">
-    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">OpenCV</text></g>
+    <g class="c2"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">OpenCV</text></g>
   </g>
 </g>
 
 <!-- ═══ ORBIT 3 — Data Science (r=190, 46s, green) ═══ -->
 <g id="o3">
   <g style="transform: translate(620px, 430px)">
-    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">Pandas</text></g>
+    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">Pandas</text></g>
   </g>
   <g style="transform: translate(489px, 611px)">
-    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">NumPy</text></g>
+    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">NumPy</text></g>
   </g>
   <g style="transform: translate(276px, 542px)">
-    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">Matplotlib</text></g>
+    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">Matplotlib</text></g>
   </g>
   <g style="transform: translate(276px, 318px)">
-    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">Seaborn</text></g>
+    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">Seaborn</text></g>
   </g>
   <g style="transform: translate(489px, 249px)">
-    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">Jupyter</text></g>
+    <g class="c3"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">Jupyter</text></g>
   </g>
 </g>
 
@@ -198,16 +198,16 @@
 <!-- 4 items @ 90° -->
 <g id="o4">
   <g style="transform: translate(678px, 430px)">
-    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">GANs</text></g>
+    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">GANs</text></g>
   </g>
   <g style="transform: translate(430px, 678px)">
-    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Transformers</text></g>
+    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Transformers</text></g>
   </g>
   <g style="transform: translate(182px, 430px)">
-    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Diffusion</text></g>
+    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Diffusion</text></g>
   </g>
   <g style="transform: translate(430px, 182px)">
-    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Rein. Learning</text></g>
+    <g class="c4"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Rein. Learning</text></g>
   </g>
 </g>
 
@@ -222,25 +222,25 @@
 <!-- 308.57°: (.625,-.781) → (621,191) -->
 <g id="o5">
   <g style="transform: translate(736px, 430px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">HTML</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">HTML</text></g>
   </g>
   <g style="transform: translate(621px, 669px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">CSS</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">CSS</text></g>
   </g>
   <g style="transform: translate(362px, 728px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">JavaScript</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">JavaScript</text></g>
   </g>
   <g style="transform: translate(154px, 562px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">React</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">React</text></g>
   </g>
   <g style="transform: translate(154px, 298px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">SQL</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">SQL</text></g>
   </g>
   <g style="transform: translate(362px, 132px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">MongoDB</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">MongoDB</text></g>
   </g>
   <g style="transform: translate(621px, 191px)">
-    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="18" class="lbl lg">PostgreSQL</text></g>
+    <g class="c5"><circle r="5.5" class="pg" filter="url(#glow-g)"/><text y="22" class="lbl lg">PostgreSQL</text></g>
   </g>
 </g>
 
@@ -249,36 +249,37 @@
 <!-- (795,430) (688,688) (430,795) (172,688) (65,430) (172,172) (430,65) (688,172) -->
 <g id="o6">
   <g style="transform: translate(795px, 430px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Git</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Git</text></g>
   </g>
   <g style="transform: translate(688px, 688px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Docker</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Docker</text></g>
   </g>
   <g style="transform: translate(430px, 795px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Linux</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Linux</text></g>
   </g>
   <g style="transform: translate(172px, 688px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">AWS</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">AWS</text></g>
   </g>
   <g style="transform: translate(65px, 430px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">GCP</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">GCP</text></g>
   </g>
   <g style="transform: translate(172px, 172px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Azure</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Azure</text></g>
   </g>
   <g style="transform: translate(430px, 65px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">QuantLib</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">QuantLib</text></g>
   </g>
   <g style="transform: translate(688px, 172px)">
-    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="18" class="lbl lb">Backtrader</text></g>
+    <g class="c6"><circle r="5.5" class="pb" filter="url(#glow-b)"/><text y="22" class="lbl lb">Backtrader</text></g>
   </g>
 </g>
 
 <!-- Orbit category labels (static corner labels) -->
-<text x="430" y="344" class="lbl lg" font-size="7" opacity="0.55">LANGUAGES</text>
-<text x="430" y="289" class="lbl lb" font-size="7" opacity="0.55">AI/ML</text>
-<text x="430" y="230" class="lbl lg" font-size="7" opacity="0.55">DATA SCI</text>
-<text x="430" y="172" class="lbl lb" font-size="7" opacity="0.55">GEN AI</text>
-<text x="430" y="114" class="lbl lg" font-size="7" opacity="0.55">WEB+DB</text>
-<text x="430" y="55" class="lbl lb" font-size="7" opacity="0.55">DEVOPS+CLOUD+QUANT</text>
+<text x="430" y="344" class="lbl lg" font-size="10" opacity="0.8">LANGUAGES</text>
+<text x="430" y="289" class="lbl lb" font-size="10" opacity="0.8">AI/ML</text>
+<text x="430" y="230" class="lbl lg" font-size="10" opacity="0.8">DATA SCI</text>
+<text x="430" y="172" class="lbl lb" font-size="10" opacity="0.8">GEN AI</text>
+<text x="430" y="114" class="lbl lg" font-size="10" opacity="0.8">WEB+DB</text>
+<text x="430" y="55" class="lbl lb" font-size="10" opacity="0.8">DEVOPS+CLOUD+QUANT</text>
+
 </svg>
